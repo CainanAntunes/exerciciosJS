@@ -1,0 +1,52 @@
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Lista 01 Exercício 06</title>
+	    <style>
+	        body{
+                margin: 10%;
+                display: flex;
+				flex-direction: column;
+				justify-items: center;
+				text-align: center;
+				gap: 30px;
+				font-size: large;
+	        }
+            section{
+                display: flex;
+	            justify-content: center;
+	            align-items: center;
+	            gap: 10px;
+            }
+			button{
+				width: 30px;
+			}
+			span{
+				background-color: rgb(230, 230, 230);
+				width: 150px;
+			}
+
+	    </style>
+	</head>
+	<body>
+        <p><b>Exercício 06 - DESAFIO:</b> faça a calculadora funcionar.</p><br>
+	    <section>
+			<label for="n1">N1</label>
+            <input type="text" id="n1" value="">
+			<label for="n2">N2</label>
+            <input type="text" id="n2" value="">
+		</section>
+		<section>
+			<button id="btnSomar">+</button>
+			<button id="btnSub">-</button>
+			<button id="btnMult">*</button>
+			<button id="btnDiv">/</button>
+		</section>
+		<section>
+			<span id="result">RESULTADO</span>
+		</section>
+		<script src="./calculadora.js"></script>
+	</body>
+</html>
